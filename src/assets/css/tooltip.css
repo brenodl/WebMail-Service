@@ -43,21 +43,21 @@
  pointer-events: all;
 }
 
-cmail-form-component.css .cmailInputForm .mdl-textfield {
+bmail-form-component.css .bmailInputForm .mdl-textfield {
    color: #757575;
 }
-.cmailInputForm .mdl-textfield:focus-within {
+.bmailInputForm .mdl-textfield:focus-within {
    color: rgb(63,81,181);
 }
-.cmailInputForm .mdl-textfield.is-invalid {
+.bmailInputForm .mdl-textfield.is-invalid {
    color: #d50000;
 }
 
-.cmailInputForm .mdl-textfield.is-invalid .mdl-textfield__label {
+.bmailInputForm .mdl-textfield.is-invalid .mdl-textfield__label {
    font-size: 16px;
 }
 
-.cmailInputForm .mdl-textfield__formline {
+.bmailInputForm .mdl-textfield__formline {
    content: "";
    display: block;
    position: absolute;
@@ -70,20 +70,20 @@ cmail-form-component.css .cmailInputForm .mdl-textfield {
    transform: scale(0);
 }
 
-.cmailInputForm .mdl-textfield__input:not(:placeholder-shown) ~ .mdl-textfield__formline,
-.cmailInputForm .mdl-textfield:focus-within .mdl-textfield__formline {
+.bmailInputForm .mdl-textfield__input:not(:placeholder-shown) ~ .mdl-textfield__formline,
+.bmailInputForm .mdl-textfield:focus-within .mdl-textfield__formline {
    opacity: 1;
    transform: scale(1);
 }
 
-.cmailInputForm .mdl-textfield__input {
+.bmailInputForm .mdl-textfield__input {
    outline: 0;
    transition: color .2s, background .2s;
    color: #757575;
 }
 
-.cmailInputForm .mdl-textfield__input:not(:placeholder-shown) ~ .mdl-textfield__label,
-.cmailInputForm .mdl-textfield__input:focus ~ .mdl-textfield__label {
+.bmailInputForm .mdl-textfield__input:not(:placeholder-shown) ~ .mdl-textfield__label,
+.bmailInputForm .mdl-textfield__input:focus ~ .mdl-textfield__label {
    color: currentColor;
    font-size: 12px !important;
    top: 4px;

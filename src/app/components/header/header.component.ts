@@ -2,7 +2,7 @@ import { Component } from "@angular/core"
 
 @Component({
 
-    selector: 'cmail-header',
+    selector: 'bmail-header',
     templateUrl: './header.component.html',
     styleUrls: [
         
